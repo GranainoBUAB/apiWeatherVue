@@ -4,7 +4,7 @@
     <img :src="weather.current.condition.icon" style="width: 200px;height:auto;" />
     <h2>Temperatura : {{ weather.current.temp_c }} ºC</h2>
     <h2>Humedad : {{ weather.current.humidity }} %</h2>
-    <h2>Viento : {{ weather.current.wind_kph }} kmph</h2>
+    <h2>Viento : {{ weather.current.wind_kph }} km/h</h2>
     <h2>Presión : {{ weather.current.pressure_mb }} hpa</h2>
     <h2>Precipitacion : {{ weather.current.precip_mm }} mm</h2>
   </div>
