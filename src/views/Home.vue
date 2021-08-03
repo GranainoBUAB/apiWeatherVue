@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <h1>El Tiempo en {{ weather.location.name }}</h1>
-    <img :src="weather.current.condition.icon" style="width: 200px;height:auto;" />
+    <img
+      :src="weather.current.condition.icon"
+      style="width: 200px;height:auto;"
+    />
     <h2>Temperatura : {{ weather.current.temp_c }} ºC</h2>
     <h2>Humedad : {{ weather.current.humidity }} %</h2>
     <h2>Viento : {{ weather.current.wind_kph }} km/h</h2>
@@ -11,7 +14,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import axios from "axios";
 
 const options = {
