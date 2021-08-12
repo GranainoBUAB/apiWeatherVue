@@ -21,7 +21,7 @@ const options = {
   url: "https://weatherapi-com.p.rapidapi.com/current.json",
   params: { q: "santa fe Andalucia spain" },
   headers: {
-    "x-rapidapi-key": "6001a4e8b3mshe0baf1d16d76c04p1082d4jsn4c69a8766f93",
+    "x-rapidapi-key": "xxxxx",
     "x-rapidapi-host": "weatherapi-com.p.rapidapi.com",
   },
 };
